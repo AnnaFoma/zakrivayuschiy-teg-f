@@ -17,4 +17,19 @@
 .page {
   min-inline-size: 320px;
   min-block-size: 100dvb;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: 
+    repeating-linear-gradient(180deg, transparent 2px, var( --horizontal-color-line) 2px),
+    repeating-linear-gradient(90deg, var(--vertical-color-line-start), var(--vertical-color-line-start) 2px, var(--vertical-color-line-end), var(--vertical-color-line-end) 2px);
+  /* color: var(--text-color);
+  background-color: var(--bg-color); */
+  /* font-family: var(--main-font-family); */
+}
+
+.header {
+  font-family: var(--accent-font-family);
+
 }

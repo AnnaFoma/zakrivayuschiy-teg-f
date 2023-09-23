@@ -4,3 +4,19 @@
 ✦ theme-light — класс светлой темы
 ✦ не забудьте описать стили для изменения темы через медизапрос пользовательских предпочтений
 */
+
+.page.theme-light {
+    --horizontal-color-line: #d3d3d3;
+    --vertical-color-line-start: #e7e7e7;
+    --vertical-color-line-end: #1a1a1a;
+    --light-title-font-weight: 700;
+    --light-text-font-weight: 400;
+}
+
+.page.theme-dark {
+    --horizontal-color-line: #000;
+    --vertical-color-line-start: #007f0c;
+    --vertical-color-line-end: #004306;
+    --dark-title-font-weight: 785;
+    --dark-text-font-weight: 465;
+}
