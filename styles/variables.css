@@ -2,9 +2,12 @@
 :root {
     --main-font-family: "Inter", arial;
     --accent-font-family: "Press Start 2P", sans-serif;
-    --light-title-font-weight: 700;
-    --light-text-font-weight: 400;
+    --title-font-weight: 700;
+    --text-font-weight: 400;
+    --main-font-size: 18px;
     --horizontal-color-line: #d3d3d3;
     --vertical-color-line-start: #e7e7e7;
     --vertical-color-line-end: #1a1a1a;
+    --bg-color: #FFFFFF;
+    --accent-color: #000000;
   }
