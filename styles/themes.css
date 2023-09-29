@@ -5,47 +5,38 @@
 ✦ не забудьте описать стили для изменения темы через медизапрос пользовательских предпочтений
 */
 
-
-/* .page.theme-dark {
-    --horizontal-color-line: #000;
-    --vertical-color-line-start: #007f0c;
-    --vertical-color-line-end: #004306;
-    --title-font-weight: 785;
-    --text-font-weight: 465;
-    --bg-color: #000000;
-    --accent-color: #00cc14;
+:root.theme-light {
+  --title-font-weight: 700;
+  --text-font-weight: 400;
+  --bg-color: #ffffff;
+  --accent-color: #000000;
+  --btn-text-color: #ffffff;
+  --bg-img: repeating-linear-gradient(90deg, #d3d3d3,  #d3d3d3 2px, transparent 2px, transparent 4px),
+            repeating-linear-gradient(180deg, #e7e7e7, #1a1a1a 2px, transparent 2px, transparent 4px),
+            repeating-linear-gradient(180deg, #e7e7e7 0.01%, #1a1a1a);
+  --animation-contour-color: #000000;
 }
 
-.page.theme-light {
-    --horizontal-color-line: #d3d3d3;
-    --vertical-color-line-start: #e7e7e7;
-    --vertical-color-line-end: #1a1a1a;
-    --title-font-weight: 700;
-    --text-font-weight: 400;
-    --bg-color: #ffffff;
-    --accent-color: #000000;
-} */
-
-@media (prefers-color-scheme: light) {
-  :root.theme-light {
-    --horizontal-color-line: #d3d3d3;
-    --vertical-color-line-start: #e7e7e7;
-    --vertical-color-line-end: #1a1a1a;
-    --title-font-weight: 700;
-    --text-font-weight: 400;
-    --bg-color: #ffffff;
-    --accent-color: #000000;
-  }
+:root.theme-dark {
+  --title-font-weight: 785;
+  --text-font-weight: 465;
+  --bg-color: #000000;
+  --accent-color: #00cc14;
+  --btn-text-color: #00cc14;
+  --bg-img: repeating-linear-gradient(90deg, #000000,  #000000 2px, transparent 2px, transparent 4px),
+            repeating-linear-gradient(180deg, #007f0c, #004306 2px, transparent 2px, transparent 4px);
+  --animation-contour-color: #00cc14;
 }
 
 @media (prefers-color-scheme: dark) {
-  :root.theme-dark {
-    --horizontal-color-line: #000;
-    --vertical-color-line-start: #007f0c;
-    --vertical-color-line-end: #004306;
+  :root {
     --title-font-weight: 785;
     --text-font-weight: 465;
     --bg-color: #000000;
     --accent-color: #00cc14;
+    --btn-text-color: #00cc14;
+    --bg-img: repeating-linear-gradient(90deg, #000000,  #000000 2px, transparent 2px, transparent 4px),
+              repeating-linear-gradient(180deg, #007f0c, #004306 2px, transparent 2px, transparent 4px);
+    --animation-contour-color: #00cc14;
   }
 }
