@@ -52,6 +52,7 @@
 }
 
 .like-icon.is-liked .sparks {
+  fill: var(--animation-heart-fill-color);
   animation: opacity 0.3s 0.3s ease-in alternate;
 }
 
