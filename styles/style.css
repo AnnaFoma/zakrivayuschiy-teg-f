@@ -13,16 +13,11 @@
 
 */
 
-@supports (font-variation-settings: normal) {
-  body {
-      font-family: Inter, arial;
-  }
-} 
-
 .page {
   min-inline-size: 320px;
   min-block-size: 100dvb;
   font-family: var(--main-font-family);
+  font-variation-settings: var(--text-font-weight);
   font-size: var(--main-font-size);
   color: var(--accent-color);
   background-image: var(--bg-img);
