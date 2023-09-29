@@ -17,7 +17,7 @@
   min-inline-size: 320px;
   min-block-size: 100dvb;
   font-family: var(--main-font-family);
-  font-variation-settings: var(--text-font-weight);
+  font-variation-settings: "wght" var(--text-font-weight);
   font-size: var(--main-font-size);
   color: var(--accent-color);
   background-image: var(--bg-img);
@@ -146,7 +146,7 @@
 .section__title {
   padding: 3px 10px;
   line-height: normal;
-  font-weight: var(--title-font-weight);
+  font-variation-settings: "wght" var(--title-font-weight);
   font-size: var(--main-font-size);
 }
 
@@ -162,7 +162,6 @@
   flex-direction: column;
   gap: 27px;
   font-size: var(--main-font-size);
-  font-weight: var(--text-font-weight);
   line-height: 116.667%;
 }
 
